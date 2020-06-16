@@ -6,7 +6,6 @@
 #' @param palette The name of the palette; options are "main", "blue", and "green".
 #' @param discrete Boolean condition to define whether relevant aesthetic is discrete or not. Default is false.
 #' @param reverse Boolean condition to reverse order of colors or not. Default is false.
-#' @return Outputs to SQLite database all .csv files with an additional column of row numbers to uniquely identify records (sometimes redundantly).
 #' @export
 
 scale_color_mncol <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {

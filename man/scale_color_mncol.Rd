@@ -13,9 +13,6 @@ scale_color_mncol(palette = "main", discrete = TRUE, reverse = FALSE, ...)
 
 \item{reverse}{Boolean condition to reverse order of colors or not. Default is false.}
 }
-\value{
-Outputs to SQLite database all .csv files with an additional column of row numbers to uniquely identify records (sometimes redundantly).
-}
 \description{
 This function uses interpolated MN colors to form a color palette for graphical purposes. The three main palettes are "main", "blue", and "green".
 "Main" is composed of MN branded colors, using interpolated colors for gradiation, sorted in the arrangement of the color wheel (with a small deviation -- can you see it!?)
